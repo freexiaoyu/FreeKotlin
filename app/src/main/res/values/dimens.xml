@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- textsize start -->
+    <dimen name="textsize_25">50sp</dimen>
+    <dimen name="textsize_15">30sp</dimen>
+    <dimen name="textsize_14">28sp</dimen>
+    <dimen name="textsize_13">26sp</dimen>
+    <dimen name="textsize_12">24sp</dimen>
+    <dimen name="textsize_11">22sp</dimen>
+    <dimen name="textsize_10">20sp</dimen>
+    <dimen name="textsize_9">18sp</dimen>
+    <dimen name="textsize_8">16sp</dimen>
+    <dimen name="textsize_7">14sp</dimen>
+    <dimen name="textsize_6">12sp</dimen>
+    <dimen name="textsize_5">10sp</dimen>
+    <dimen name="textsize_4">8sp</dimen>
+    <dimen name="textsize_3">6sp</dimen>
+    <dimen name="textsize_2">4sp</dimen>
+    <dimen name="textsize_1">2sp</dimen>
+    <!-- textsize end -->
+
+    <!-- 共通大文字 -->
+    <dimen name="common_textsize_big">16sp</dimen>
+    <!-- 共通超大大文字 -->
+    <dimen name="common_textsize_super_big">20sp</dimen>
+    <!-- 共通字体大小 -->
+    <dimen name="common_textsize">14sp</dimen>
+    <!-- 共通字体小 -->
+    <dimen name="common_textsize_small">12sp</dimen>
+    <!-- 共通超大边距 -->
+    <dimen name="common_margin_super_big">50dp</dimen>
+    <!-- 共通大边距 -->
+    <dimen name="common_margin_big">20dp</dimen>
+    <!-- 共通中等边距 -->
+    <dimen name="common_margin">10dp</dimen>
+    <dimen name="common_margin_9">9.0dp</dimen>
+    <!-- 共通小间距 -->
+    <dimen name="common_margin_small">5dp</dimen>
+    <!-- 共通小间距 -->
+    <dimen name="common_margin_super_small">2dp</dimen>
+    <!-- 共通小间距 -->
+    <dimen name="common_margin_super_small_one">1.0dp</dimen>
+
+    <dimen name="_10dp">10.0dp</dimen>
+    <dimen name="_5dp">5.0dp</dimen>
+</resources>

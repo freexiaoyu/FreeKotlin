@@ -22,6 +22,34 @@ cloud的开源项目转化kotlin语言的项目
 5. 图片载使用方法  FreeImageLoader.get().display(iv_photo, "")
 6. 
 
+### 动态获取权限使用 
+```
+private PermissionsChecker mPermissionsChecker; // 权限检测器
+  String[] perms = {"android.permission.RECORD_AUDIO"
+            , "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.ACCESS_FINE_LOCATION"};
+  mPermissionsChecker = new PermissionsChecker(this);
+           // 缺少权限时, 进入权限配置页面
+           if (mPermissionsChecker.lacksPermissions(perms)) {
+               ActivityCompat.requestPermissions(MainActivity.this, perms, RESULT_CODE_PERMISSIONS);
+           } else {
+                //执行你的方法
+           }
+    @Override
+  public void onRequestPermissionsResult(int permsRequestCode, String[] permissions, int[] grantResults) {
+          switch (permsRequestCode) {
+              case RESULT_CODE_PERMISSIONS:
+                  boolean cameraAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+                  if (!cameraAccepted) {
+                      ToastUtil.show(mContext, "缺少主要权限, 无法运行");
+                  } else {
+                    //执行你的方法
+                  }
+                  break;
+          }
+      }
+```
+
 #### 参与贡献
 
 1. Fork 本项目

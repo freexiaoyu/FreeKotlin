@@ -29,7 +29,8 @@ cloud的开源项目转化kotlin语言的项目
 3. 提交代码
 4. 新建 Pull Request
 
-####该项目使用了第三方框架
+#### 使用了第三方框架
+
 1. 图片轮播carouselview   https://github.com/sayyam/carouselview
 2. 图片加载glide  https://github.com/bumptech/glide
 3. 网络请求okhttp   https://github.com/square/okhttp
